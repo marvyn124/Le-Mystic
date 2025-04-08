@@ -1,0 +1,78 @@
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #0e0e0e;
+  color: #ffffff;
+}
+.hero {
+  background: url('images/jacuzzi.jpg') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 3em;
+  margin: 0;
+}
+.hero p {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+.hero a {
+  padding: 10px 20px;
+  background: #c916a5;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+.gallery-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.gallery-container img {
+  width: 100%;
+  border-radius: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form input, form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+form button {
+  padding: 10px;
+  background: #c916a5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  background: #000;
+}
+@media screen and (max-width: 600px) {
+  .hero h1 {
+    font-size: 2em;
+  }
+  .hero p {
+    font-size: 1em;
+  }
+}
