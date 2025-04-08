@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background-color: #0f0f0f;
+  color: #f7f1f5;
+}
+
+header {
+  background-color: #1a1a1a;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #ff8cc6;
+  margin: 0;
+}
+
+nav a {
+  color: #ff8cc6;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+nav a:hover {
+  color: #ffc6e1;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #1f1f1f;
+}
+
+.hero h2 {
+  font-size: 2em;
+  color: #ff8cc6;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+.btn {
+  background-color: #ff8cc6;
+  color: black;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 30px;
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ffc6e1;
+}
+
+.welcome {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  background-color: #1a1a1a;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1a1a1a;
+  color: #ccc;
+  font-size: 0.9em;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px;
+}
+
+.gallery img {
+  width: 300px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(255, 140, 198, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 40px auto;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1em;
+}
+
+button {
+  background-color: #ff8cc6;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffc6e1;
+}
